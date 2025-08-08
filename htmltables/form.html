@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2>Clinic Appointment Form</h2>
+
+  <form>
+    
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="date">Appointment Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <label for="time">Appointment Time:</label><br>
+    <input type="time" id="time" name="time" required><br><br>
+    
+    <label for="doctor">Select Doctor:</label><br>
+    <select id="doctor" name="doctor" required>
+      <option value="">-- Choose Doctor --</option>
+      <option value="dr_smith">Dr. Johny</option>
+      <option value="dr_jones">Dr. Sweeny</option>
+      <option value="dr_brown">Dr. Mia</option>
+    </select><br><br>
+    
+    <label for="notes">Notes:</label><br>
+    <textarea id="notes" name="notes" ></textarea><br><br>
+    
+    <input type="submit" value="Book Appointment">
+  
+  </form>
+
+</body>
+</html>
